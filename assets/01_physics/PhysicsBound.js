@@ -27,7 +27,6 @@ cc.Class({
   },
 
   _addBound(node, x, y, width, height) {
-    console.log(x, y, width, height)
     const collider = node.addComponent(cc.PhysicsBoxCollider)
     collider.offset.x = x
     collider.offset.y = y
